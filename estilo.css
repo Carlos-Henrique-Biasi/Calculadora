@@ -1,0 +1,52 @@
+body{
+    background-color: lightblue;
+    font: normal 15pt Arial;
+}
+header{
+    text-align: center;
+
+}
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.614);
+}
+footer{
+    text-align: center;
+    font-style: italic;
+
+}
+input#igual{
+    width: 145px;
+    border-radius: 10px;
+}
+input{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    background-color: gray;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    box-shadow: 0px 4px 2px #999;
+    transition: 0.1s;
+}
+input:active{
+    transform: scale(0.99);
+    box-shadow: 0 0 0;
+}
+input#divisao{
+    margin-left: 15px;
+}
+div{
+    text-align: center;
+}
+div#resultado{
+    margin-top: 35px;
+    font-size: 30px;
+    text-align: center;
+}
+
